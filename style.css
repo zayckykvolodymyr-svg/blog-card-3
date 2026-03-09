@@ -1,0 +1,62 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f2f5;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+}
+
+.card {
+max-width: 350px;
+background: white;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+overflow: hidden;
+display: flex;
+flex-direction: column;
+}
+
+.card__image {
+width: 100%;
+display: block;
+}
+
+.card__content {
+padding: 16px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.card__meta {
+display: flex;
+justify-content: space-between;
+font-size: 0.85rem;
+color: #555;
+}
+
+.card__title {
+margin: 0;
+font-size: 1.2rem;
+color: #222;
+}
+
+.card__description {
+font-size: 0.95rem;
+color: #333;
+}
+
+.card__author {
+display: flex;
+align-items: center;
+gap: 8px;
+margin-top: 12px;
+}
+
+.card__author-image {
+width: 32px;
+height: 32px;
+border-radius: 50%;
+}
